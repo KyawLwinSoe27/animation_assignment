@@ -1,3 +1,4 @@
+import 'package:animation_assignment/pages/details_page.dart';
 import 'package:animation_assignment/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const DetailsPage(),
     );
   }
 }
